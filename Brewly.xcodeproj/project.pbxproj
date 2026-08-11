@@ -6,8 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C45AC5DE302BD718009E4E16 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C45AC5DD302BD710009E4E16 /* README.md */; };
+		C45AC5E0302BD761009E4E16 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C45AC5DF302BD758009E4E16 /* LICENSE */; };
+		C45AC5E2302BD784009E4E16 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C45AC5E1302BD77C009E4E16 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C45AC5CF302BD645009E4E16 /* Brewly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brewly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45AC5DD302BD710009E4E16 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C45AC5DF302BD758009E4E16 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C45AC5E1302BD77C009E4E16 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +41,9 @@
 		C45AC5C6302BD645009E4E16 = {
 			isa = PBXGroup;
 			children = (
+				C45AC5DD302BD710009E4E16 /* README.md */,
+				C45AC5DF302BD758009E4E16 /* LICENSE */,
+				C45AC5E1302BD77C009E4E16 /* .gitignore */,
 				C45AC5D1302BD645009E4E16 /* Brewly */,
 				C45AC5D0302BD645009E4E16 /* Products */,
 			);
@@ -109,6 +121,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C45AC5E2302BD784009E4E16 /* .gitignore in Resources */,
+				C45AC5E0302BD761009E4E16 /* LICENSE in Resources */,
+				C45AC5DE302BD718009E4E16 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
